@@ -8,12 +8,12 @@ public class Main {
         System.out.println("При сроке погашения кредита " + yearsCredit +
                 " год ежемесячный платеж составляет " + montPayment1 + " руб.");
         int yearsCredit2 = 2;
-        int montPayment = (int) service.calculate(sumCredit, yearsCredit2,percentCredit);
+        int montPayment2 = (int) service.calculate(sumCredit, yearsCredit2,percentCredit);
         System.out.println("При сроке погашения кредита " + yearsCredit2 +
-                " года ежемесячный платеж составляет " + montPayment + " руб.");
+                " года ежемесячный платеж составляет " + montPayment2 + " руб.");
         int yearsCredit3 = 3;
         int montPayment3 = (int) service.calculate(sumCredit, yearsCredit3,percentCredit);
         System.out.println("При сроке погашения кредита " + yearsCredit3 +
-                " года ежемесячный платеж составляет " + montPayment + " руб.");
+                " года ежемесячный платеж составляет " + montPayment3 + " руб.");
     }
 }
